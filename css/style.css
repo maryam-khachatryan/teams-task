@@ -26,7 +26,6 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
     line-height: 15px;
   }
 
@@ -34,6 +33,16 @@
     font-size: 10px;
     font-weight: 600;
     color: #828282;
+  }
+
+  p { 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.405px;
+    color: 828282;
+    
   }
 
 
@@ -184,7 +193,7 @@
 }
 
 .teams-box {
-  margin: 56px 25px 32px 40px;
+  margin: 4px 25px 32px 40px;
 }
 
 .border-circle {
@@ -224,6 +233,7 @@
   border-radius: 3px;
   margin: 6px;
   padding: 12px 0 35px 12px;
+  margin-bottom: 5px;
 }
 
 .card-box {
@@ -233,6 +243,10 @@
 
 .card-header-style , .card-footer-style {
   background: transparent;
+}
+
+.card-footer-style {
+  color: #216AFA !important;
 }
 
 .card-header-style {
@@ -249,6 +263,10 @@
   color: #828282;
   font-size: 12px;
   font-weight: 400;
-  text-align: left;
+}
 
+.time-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
 }
