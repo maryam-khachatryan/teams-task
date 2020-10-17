@@ -68,10 +68,6 @@
         display: none;
     }
 
-    /* .left-bar {
-        height: 100vh;
-    } */
-
     .row-width {
         width: 100%;
         flex-direction: column;
@@ -94,5 +90,31 @@
 
     .navbar-light {
         padding-right: 25px;   
+    }
+
+    .team-members-box {
+        margin-top: 20px;
+    }
+
+    .teams-box {
+        flex-direction: column;
+        margin-top: 8px;
+    }
+
+    .filter-select {
+        margin-bottom: 8px;
+    }
+
+    .heder-media {
+        flex-direction: column;
+    }
+
+    .shape-img {
+        margin-bottom: 8px;
+        margin-top: 0 !important;
+    }
+
+    .log-out > img {
+        margin-top: 200px;
     }
 }
