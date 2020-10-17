@@ -10,21 +10,17 @@
     .nav-text {
         display: none;
     }
+
     .heder-media {
         margin-top: 16px !important;
     }
+
     .border-bottom {
         height: 156px !important;
     }
-
-    
 }
 
 @media(max-width: 767px) {
-    /* .form-inline > input {
-        width: 120px !important;
-    } */
-
     .nav-text {
         display: none;
     }
@@ -33,7 +29,7 @@
         height: 100vh;
     }
 
-    .border-bottom >img {
+    .border-bottom > img {
         width: 143px;
         height: 71px;
     }
@@ -68,22 +64,25 @@
 
 
 @media(max-width: 575px) {
-
     .nav-text {
         display: none;
     }
+
     .left-bar {
         height: 100vh;
     }
+
     .row-width {
         width: 100%;
         flex-direction: column;
     }
+
     .border-bottom {
         margin: 0 9px!important;
         height: 156px;
         align-items: center;
     }
+    
     .nav-header-border {
         width: calc(100% - 115px) !important;
     }
