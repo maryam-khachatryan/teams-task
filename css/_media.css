@@ -3,9 +3,9 @@
         display: none;
     }
 
-    .left-bar {
+    /* .left-bar {
         height: 100vh;
-    }
+    } */
 
     .nav-text {
         display: none;
@@ -25,9 +25,9 @@
         display: none;
     }
 
-    .left-bar {
+    /* .left-bar {
         height: 100vh;
-    }
+    } */
 
     .border-bottom > img {
         width: 143px;
@@ -68,9 +68,9 @@
         display: none;
     }
 
-    .left-bar {
+    /* .left-bar {
         height: 100vh;
-    }
+    } */
 
     .row-width {
         width: 100%;
@@ -82,7 +82,7 @@
         height: 156px;
         align-items: center;
     }
-    
+
     .nav-header-border {
         width: calc(100% - 115px) !important;
     }

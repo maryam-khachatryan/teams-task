@@ -45,16 +45,19 @@
     
   }
 
-
   span {
     font-size: 10px;
     font-weight: 600;
     color: #828282;
   }
 
+  .main-container {
+    height: 100%;
+  }
+
   .left-bar {
     background-color: #216AFA;
-    height: 100%;
+    min-height: 100vh;
     width: 256px;
     position: relative;
   }
@@ -108,6 +111,10 @@
   
   .active> .nav-item {
     font-weight: 700;
+  }
+
+  .teams-container {
+    padding-left: 15px;
   }
 
   .card-size {
@@ -189,11 +196,11 @@
 }
 
 .teams-title {
-  margin: 40px 40px 0 75px;
+  margin: 40px 0 0 30px;
 }
 
 .teams-box {
-  margin: 4px 25px 32px 40px;
+  margin: 4px 15px 32px 30px;
 }
 
 .border-circle {
@@ -213,17 +220,14 @@
   width: 100%;
 }
 
-.filter-titel-box {
-  width: 6.5%;
-}
-
-.filter-titel-style {
+.filter-select {
   color: #4F4F4F !important;
   font-size: 16px !important;
   font-weight: 600 !important;
+  margin-right: 31px;
 }
 
-.teams-box > .btn , .filter-titel-style {
+.teams-box > .btn , .filter-select {
   font-size: 16px !important;
   font-weight: 600 !important;
 }
@@ -233,7 +237,7 @@
   border-radius: 3px;
   margin: 6px;
   padding: 12px 0 35px 12px;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 
 .card-box {
